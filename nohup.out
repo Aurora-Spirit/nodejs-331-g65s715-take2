@@ -1,0 +1,144 @@
+
+> my-react-app@0.0.0 dev
+> vite --port 3073 --host
+
+
+  VITE v7.2.2  ready in 164 ms
+
+  ➜  Local:   http://localhost:3073/
+  ➜  Network: http://153.90.6.209:3073/
+
+> my-react-app@0.0.0 dev
+> vite --port 3073 --host
+
+
+  VITE v7.2.2  ready in 157 ms
+
+  ➜  Local:   http://localhost:3073/
+  ➜  Network: http://153.90.6.209:3073/
+1:24:30 PM [vite] (client) page reload src/main.jsx
+1:24:49 PM [vite] (client) hmr update /src/Counter.jsx
+1:24:56 PM [vite] (client) hmr update /src/Paragraph.jsx
+1:25:24 PM [vite] (client) hmr update /src/Paragraph.jsx
+1:26:10 PM [vite] (client) hmr update /src/Paragraph.jsx
+1:26:22 PM [vite] (client) hmr update /src/Paragraph.jsx
+1:30:54 PM [vite] (client) hmr update /src/Paragraph.jsx
+7:49:17 PM [vite] (client) hmr update /src/Paragraph.jsx
+8:27:32 PM [vite] (client) page reload src/main.jsx
+8:29:09 PM [vite] (client) page reload src/main.jsx
+8:29:27 PM [vite] (client) page reload src/main.jsx
+8:29:27 PM [vite] (client) Pre-transform error: Failed to resolve import "./SearchBar.jsx" from "src/main.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/g65s715/my-react-app/src/main.jsx:8:22
+  7  |  import Paragraph from "./Paragraph.jsx";
+  8  |  import Store from "./Store.jsx";
+  9  |  import SearchBar from "./SearchBar.jsx";
+     |                         ^
+  10 |  createRoot(document.getElementById("root")).render(
+  11 |    /* @__PURE__ */ jsxDEV(StrictMode, { children: [
+8:29:27 PM [vite] Internal server error: Failed to resolve import "./SearchBar.jsx" from "src/main.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/g65s715/my-react-app/src/main.jsx:8:22
+  7  |  import Paragraph from "./Paragraph.jsx";
+  8  |  import Store from "./Store.jsx";
+  9  |  import SearchBar from "./SearchBar.jsx";
+     |                         ^
+  10 |  createRoot(document.getElementById("root")).render(
+  11 |    /* @__PURE__ */ jsxDEV(StrictMode, { children: [
+      at TransformPluginContext._formatLog (file:///home/g65s715/my-react-app/node_modules/vite/dist/node/chunks/config.js:29618:43)
+      at TransformPluginContext.error (file:///home/g65s715/my-react-app/node_modules/vite/dist/node/chunks/config.js:29615:14)
+      at normalizeUrl (file:///home/g65s715/my-react-app/node_modules/vite/dist/node/chunks/config.js:27738:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/g65s715/my-react-app/node_modules/vite/dist/node/chunks/config.js:27796:32
+      at async Promise.all (index 8)
+      at async TransformPluginContext.transform (file:///home/g65s715/my-react-app/node_modules/vite/dist/node/chunks/config.js:27764:4)
+      at async EnvironmentPluginContainer.transform (file:///home/g65s715/my-react-app/node_modules/vite/dist/node/chunks/config.js:29416:14)
+      at async loadAndTransform (file:///home/g65s715/my-react-app/node_modules/vite/dist/node/chunks/config.js:23287:26)
+      at async viteTransformMiddleware (file:///home/g65s715/my-react-app/node_modules/vite/dist/node/chunks/config.js:25159:20)
+8:29:31 PM [vite] (client) page reload src/main.jsx
+8:29:42 PM [vite] (client) hmr update /src/Store.jsx
+8:29:42 PM [vite] Internal server error: /home/g65s715/my-react-app/src/Store.jsx: Missing semicolon. (27:20)
+
+  25 | }
+  26 |
+> 27 | export default Store, SearchBar
+     |                     ^
+  28 |
+  Plugin: vite:react-babel
+  File: /home/g65s715/my-react-app/src/Store.jsx:27:20
+  25 |  }
+  26 |  
+  27 |  export default Store, SearchBar
+     |                      ^
+  28 |  
+      at constructor (/home/g65s715/my-react-app/node_modules/@babel/parser/lib/index.js:367:19)
+      at JSXParserMixin.raise (/home/g65s715/my-react-app/node_modules/@babel/parser/lib/index.js:6624:19)
+      at JSXParserMixin.semicolon (/home/g65s715/my-react-app/node_modules/@babel/parser/lib/index.js:6920:10)
+      at JSXParserMixin.parseExportDefaultExpression (/home/g65s715/my-react-app/node_modules/@babel/parser/lib/index.js:14002:10)
+      at JSXParserMixin.parseExport (/home/g65s715/my-react-app/node_modules/@babel/parser/lib/index.js:13904:25)
+      at JSXParserMixin.parseStatementContent (/home/g65s715/my-react-app/node_modules/@babel/parser/lib/index.js:12954:27)
+      at JSXParserMixin.parseStatementLike (/home/g65s715/my-react-app/node_modules/@babel/parser/lib/index.js:12843:17)
+      at JSXParserMixin.parseModuleItem (/home/g65s715/my-react-app/node_modules/@babel/parser/lib/index.js:12820:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/g65s715/my-react-app/node_modules/@babel/parser/lib/index.js:13392:36)
+      at JSXParserMixin.parseBlockBody (/home/g65s715/my-react-app/node_modules/@babel/parser/lib/index.js:13385:10)
+      at JSXParserMixin.parseProgram (/home/g65s715/my-react-app/node_modules/@babel/parser/lib/index.js:12698:10)
+      at JSXParserMixin.parseTopLevel (/home/g65s715/my-react-app/node_modules/@babel/parser/lib/index.js:12688:25)
+      at JSXParserMixin.parse (/home/g65s715/my-react-app/node_modules/@babel/parser/lib/index.js:14568:25)
+      at parse (/home/g65s715/my-react-app/node_modules/@babel/parser/lib/index.js:14602:38)
+      at parser (/home/g65s715/my-react-app/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/g65s715/my-react-app/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/g65s715/my-react-app/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/g65s715/my-react-app/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/g65s715/my-react-app/node_modules/gensync/index.js:261:32)
+      at /home/g65s715/my-react-app/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/g65s715/my-react-app/node_modules/gensync/index.js:223:11)
+      at /home/g65s715/my-react-app/node_modules/gensync/index.js:189:28
+      at /home/g65s715/my-react-app/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/g65s715/my-react-app/node_modules/gensync/index.js:113:33
+      at step (/home/g65s715/my-react-app/node_modules/gensync/index.js:287:14)
+      at /home/g65s715/my-react-app/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/g65s715/my-react-app/node_modules/gensync/index.js:223:11)
+8:29:47 PM [vite] (client) hmr update /src/Store.jsx
+8:30:24 PM [vite] (client) hmr update /src/Store.jsx
+8:30:29 PM [vite] (client) hmr update /src/Store.jsx
+8:30:48 PM [vite] (client) hmr update /src/Store.jsx
+8:34:14 PM [vite] (client) hmr update /src/Store.jsx
+8:35:10 PM [vite] (client) hmr update /src/Store.jsx
+8:35:31 PM [vite] (client) hmr update /src/Store.jsx
+8:40:48 PM [vite] (client) hmr update /src/Store.jsx
+8:40:56 PM [vite] (client) hmr update /src/Store.jsx
+8:43:37 PM [vite] (client) hmr update /src/Store.jsx
+8:43:53 PM [vite] (client) hmr update /src/Store.jsx
+9:01:20 PM [vite] (client) hmr update /src/Store.jsx
+9:16:18 PM [vite] (client) hmr update /src/Store.jsx
+9:16:39 PM [vite] (client) hmr update /src/Store.jsx
+9:17:05 PM [vite] (client) hmr update /src/Store.jsx
+9:17:39 PM [vite] (client) hmr update /src/Store.jsx
+9:18:31 PM [vite] (client) hmr update /src/Store.jsx
+9:19:22 PM [vite] (client) hmr update /src/Store.jsx
+9:19:35 PM [vite] (client) hmr update /src/Store.jsx
+9:20:32 PM [vite] (client) hmr update /src/Store.jsx
+9:21:03 PM [vite] (client) hmr update /src/Store.jsx
+9:22:38 PM [vite] (client) hmr update /src/Store.jsx
+9:22:51 PM [vite] (client) hmr update /src/Store.jsx
+9:24:21 PM [vite] (client) hmr update /src/Store.jsx
+9:25:46 PM [vite] (client) hmr update /src/Store.jsx
+9:26:12 PM [vite] (client) hmr update /src/Store.jsx
+9:26:25 PM [vite] (client) hmr update /src/Store.jsx
+9:27:00 PM [vite] (client) hmr update /src/Store.jsx
+9:27:20 PM [vite] (client) hmr update /src/Store.jsx
+9:27:28 PM [vite] (client) hmr update /src/Store.jsx
+9:27:45 PM [vite] (client) hmr update /src/Store.jsx
+9:28:50 PM [vite] (client) hmr update /src/Store.jsx
+9:29:03 PM [vite] (client) hmr update /src/Store.jsx
+9:29:12 PM [vite] (client) hmr update /src/Store.jsx
+9:29:38 PM [vite] (client) hmr update /src/Store.jsx
+9:30:52 PM [vite] (client) hmr update /src/Store.jsx
+9:31:31 PM [vite] (client) hmr update /src/Store.jsx
+9:31:41 PM [vite] (client) hmr update /src/Store.jsx
+9:33:12 PM [vite] (client) hmr update /src/index.css
+9:34:00 PM [vite] (client) hmr update /src/index.css
